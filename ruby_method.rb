@@ -1,15 +1,13 @@
 #　rails consoleで使用。
 numbers = [1, 2, 3, 4, 5, 6, 7, 8]
 animals = ["dog", "cat", "mouse"]
-animals1 =	["dog", "cat", "mouse","elephant"]
-scores = { 'Carol' => 90, 'Alice' => 50, 'David' => 40, 'Bob' => 60 }
+animals1 = ["dog", "cat", "mouse", "elephant"]
+scores = {'Carol' => 90, 'Alice' => 50, 'David' => 40, 'Bob' => 60}
 arr = []
 new_user = User.new
 user3 = User.find(3)
-del_user = user3.destroy 
+del_user = user3.destroy
 error = nil
-
-
 
 numbers.map {|item| item * 2 }
 numbers.select {|item| item % 2 == 0 }
