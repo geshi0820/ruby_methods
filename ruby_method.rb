@@ -29,7 +29,7 @@ animals unless animals.size > 2
 User.all.index_by(&:id)
 animals.each_with_index {|anim, i| puts "#{i+1}. #{anim}" }
 scores.each_with_object([]) do |(key, val), arr|
-	arr << key if val >= 60
+  arr << key if val >= 60
 end
 numbers.any? {|num| num > 7 }
 numbers.any? {|num| num.size > 8 }
